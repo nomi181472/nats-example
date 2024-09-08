@@ -1,0 +1,39 @@
+version: '3.9'
+services:
+  mq_nats_1:
+    image: nats
+    ports:
+      - "4222:4222"
+      - "8222:8222"      
+    volumes:
+      - mq_nats_1:/data
+    command:
+      - "--name=mq_nats_1"
+      - "--cluster_name=c1"
+      - "--cluster=nats://mq_nats_1:6222"
+      - "--routes=nats-route://mq_nats_1:6222,nats-route://mq_nats_2:6222"
+      - "--http_port=8222"
+      - "--js"
+      - "--sd=/data"
+
+  mq_nats_2:
+    image: nats
+    ports:
+      - "4223:4222"
+      - "8223:8222"
+    volumes:
+      - mq_nats_2:/data
+    command:
+      - "--name=mq_nats_2"
+      - "--cluster_name=c1"
+      - "--cluster=nats://mq_nats_2:6222"
+      - "--routes=nats-route://mq_nats_1:6222,nats-route://mq_nats_2:6222"
+      - "--http_port=8222"
+      - "--js"
+      - "--sd=/data"
+
+volumes:
+  mq_nats_1:
+    external: true
+  mq_nats_2:
+    external: true

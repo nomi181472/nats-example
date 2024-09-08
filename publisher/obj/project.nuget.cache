@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "xiVxR29OUFx2ihsavir3eRdwob24Po64ZiMheImDi+00Qo++s6qFih0zejIeVrS7Ca/RkcFW114sO7SOztCpjQ==",
+  "success": true,
+  "projectFilePath": "D:\\QBS.PSO\\nats\\nats\\publisher\\publisher.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\The Laptop Club\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\The Laptop Club\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\The Laptop Club\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\8.0.0\\microsoft.extensions.diagnostics.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\The Laptop Club\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\8.0.0\\microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\The Laptop Club\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\8.0.0\\microsoft.extensions.hosting.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\The Laptop Club\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\The Laptop Club\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\The Laptop Club\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\The Laptop Club\\.nuget\\packages\\nats.client.core\\2.3.3\\nats.client.core.2.3.3.nupkg.sha512",
+    "C:\\Users\\The Laptop Club\\.nuget\\packages\\nats.client.hosting\\2.3.3\\nats.client.hosting.2.3.3.nupkg.sha512",
+    "C:\\Users\\The Laptop Club\\.nuget\\packages\\nats.client.jetstream\\2.3.3\\nats.client.jetstream.2.3.3.nupkg.sha512",
+    "C:\\Users\\The Laptop Club\\.nuget\\packages\\nats.client.keyvaluestore\\2.3.3\\nats.client.keyvaluestore.2.3.3.nupkg.sha512",
+    "C:\\Users\\The Laptop Club\\.nuget\\packages\\nats.client.objectstore\\2.3.3\\nats.client.objectstore.2.3.3.nupkg.sha512",
+    "C:\\Users\\The Laptop Club\\.nuget\\packages\\nats.client.services\\2.3.3\\nats.client.services.2.3.3.nupkg.sha512",
+    "C:\\Users\\The Laptop Club\\.nuget\\packages\\nats.net\\2.3.3\\nats.net.2.3.3.nupkg.sha512",
+    "C:\\Users\\The Laptop Club\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.0\\system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
+    "C:\\Users\\The Laptop Club\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
+    "C:\\Users\\The Laptop Club\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\The Laptop Club\\.nuget\\packages\\system.text.json\\8.0.4\\system.text.json.8.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
